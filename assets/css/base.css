@@ -1,0 +1,33 @@
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size:62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.btn-link-l {
+    border-radius: 4px;
+    width: 400px;
+    height:94px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section__news-link-img {
+    height:183px;
+    padding-top:50%;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    transition:all 0.3s linear;
+}
+
